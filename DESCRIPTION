@@ -17,3 +17,6 @@ Maintainer: Jack Horne <jack@jackhorne.net>
 NeedsCompilation: no
 Repository: CRAN
 Date/Publication: 2014-12-02 07:51:45
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
