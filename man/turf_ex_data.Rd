@@ -7,18 +7,18 @@
 \format{
 A data frame containing 180 observations (rows) and 12 variables (columns), all numeric:
 \describe{
-  \item{respid}{A unique row identifier}
-  \item{wgt}{An individual-level weight variable that sums to 180 (i.e., the number of rows, mean = 1)}
-  \item{item_1}{A binary-coded (0/1) variable representing TURF data for item 1}
-  \item{item_2}{A binary-coded (0/1) variable representing TURF data for item 2}
-  \item{item_3}{A binary-coded (0/1) variable representing TURF data for item 3}
-  \item{item_4}{A binary-coded (0/1) variable representing TURF data for item 4}
-  \item{item_5}{A binary-coded (0/1) variable representing TURF data for item 5}
-  \item{item_6}{A binary-coded (0/1) variable representing TURF data for item 6}
-  \item{item_7}{A binary-coded (0/1) variable representing TURF data for item 7}
-  \item{item_8}{A binary-coded (0/1) variable representing TURF data for item 8}
-  \item{item_9}{A binary-coded (0/1) variable representing TURF data for item 9}
-  \item{item_10}{A binary-coded (0/1) variable representing TURF data for item 10}
+\item{respid}{A unique row identifier}
+\item{wgt}{An individual-level weight variable that sums to 180 (i.e., the number of rows, mean = 1)}
+\item{item_1}{A binary-coded (0/1) variable representing TURF data for item 1}
+\item{item_2}{A binary-coded (0/1) variable representing TURF data for item 2}
+\item{item_3}{A binary-coded (0/1) variable representing TURF data for item 3}
+\item{item_4}{A binary-coded (0/1) variable representing TURF data for item 4}
+\item{item_5}{A binary-coded (0/1) variable representing TURF data for item 5}
+\item{item_6}{A binary-coded (0/1) variable representing TURF data for item 6}
+\item{item_7}{A binary-coded (0/1) variable representing TURF data for item 7}
+\item{item_8}{A binary-coded (0/1) variable representing TURF data for item 8}
+\item{item_9}{A binary-coded (0/1) variable representing TURF data for item 9}
+\item{item_10}{A binary-coded (0/1) variable representing TURF data for item 10}
 }
 }
 \usage{

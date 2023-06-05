@@ -101,8 +101,8 @@ turf <- function(data, n, k, combos, ...) {
 		dagg <- cbind(as.factor(combo.ind), dagg)
 		names(dagg)[1] <- "combo.ind"
 		
-		turf.grp <- group_by(dagg, combo = combo.ind)
-		turf.agg[[i]] <- summarise(turf.grp, rchX = sum(rchX), frqX = sum(frqX))
+		turf.grp <- dplyr::group_by(dagg, combo = combo.ind)
+		turf.agg[[i]] <- dplyr::summarise(turf.grp, rchX = sum(rchX), frqX = sum(frqX))
 		turf.agg[[i]][,2:3] <- turf.agg[[i]][,2:3] / sum(datX[,2])
 		turf.agg[[i]] <- cbind(turf.agg[[i]], combos[[i]])
 		if(sort == "a" | sort == "d") {

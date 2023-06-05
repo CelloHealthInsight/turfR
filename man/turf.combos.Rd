@@ -7,11 +7,17 @@
 turf.combos(n, k, ...)
 }
 \arguments{
-\item{n}{- Required. Scalar indicating the number of items to be included in the TURF algorithm; 0 < n < (ncol(data) - 1). Non-integer values are coerced using floor(n).}
+\item{n}{\itemize{
+\item Required. Scalar indicating the number of items to be included in the TURF algorithm; 0 < n < (ncol(data) - 1). Non-integer values are coerced using floor(n).
+}}
 
-\item{k}{- Required. Vector of length 1 to n containing any values 1 to n indicating the combination sizes to be evaluated by the TURF algorithm. Non-integer values are coerced using floor(k).}
+\item{k}{\itemize{
+\item Required. Vector of length 1 to n containing any values 1 to n indicating the combination sizes to be evaluated by the TURF algorithm. Non-integer values are coerced using floor(k).
+}}
 
-\item{...}{- Optional. Additional arguments controlling behavior and output of the TURF algorithm. See turf.args. Arguments indicated here must match named arguments in turf.args.}
+\item{...}{\itemize{
+\item Optional. Additional arguments controlling behavior and output of the TURF algorithm. See turf.args. Arguments indicated here must match named arguments in turf.args.
+}}
 }
 \value{
 combination set formatted for use in turf
